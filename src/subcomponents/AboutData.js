@@ -57,7 +57,7 @@ const AboutData = () => {
       <div className="aboutData" style={{ height: 450, width: 550}}>
         <div style={wrapperStyles}>
           <Plx parallaxData={exampleParallaxData} style={plxStyles}>
-          <p>I'm Jillian, an artist, UI/UX developer, and graphic designer</p>
+          <p>I'm Jillian, an artist, UI/UX developer, and graphic designer. Excited about creative work outside the realm of the status quo. Currently, love learning about CSS and SVG animations.</p>
         
           </Plx>
         </div>

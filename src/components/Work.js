@@ -64,8 +64,8 @@ const mediastyle = {
 export default function Work() {
   return (
     <div >
-
-      <img width="300px"src={Github} alt="github logo" />
+     <a href="https://github.com/ShyFidelity"><img width="300px"src={Github} alt="github logo" /></a>
+      
       {/* <h1>WORK</h1>
 
     <div className="work-data">

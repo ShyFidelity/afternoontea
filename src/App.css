@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  margin: auto;
+  text-align: center; 
+  justify-content: center;
 }
 
 .App-logo {
@@ -119,8 +121,13 @@ li {
 .workLi {
   text-decoration: underline;
   color: #5faaff;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: 'Josefin Sans';
+  text-align: left !important;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+
 
 }
 .btn {
