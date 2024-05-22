@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/tea-time/static/css/main.95689105.css",
-    "main.js": "/tea-time/static/js/main.e0855198.js",
-    "static/js/453.87e94317.chunk.js": "/tea-time/static/js/453.87e94317.chunk.js",
-    "static/media/orog.png": "/tea-time/static/media/orog.ee0eaaa4216a34f3f8b6.png",
-    "static/media/weatherSS.png": "/tea-time/static/media/weatherSS.06f4630a5ada48bd978d.png",
-    "static/media/saturn.png": "/tea-time/static/media/saturn.bb5df6264b38f39272d6.png",
-    "static/media/callivy.svg": "/tea-time/static/media/callivy.f7292b76cc64e707fa16d1e5e38814cf.svg",
-    "static/media/emailme.svg": "/tea-time/static/media/emailme.e0707ef93f1db62626b8a68fb434d4f2.svg",
-    "static/media/ivygoing.png": "/tea-time/static/media/ivygoing.064690963b9bf3ff6142.png",
-    "static/media/FitzMauriceJillian_Resume.pdf": "/tea-time/static/media/FitzMauriceJillian_Resume.876cdb549e8185153bcd.pdf",
-    "static/media/gallerymodern-webfont.ttf": "/tea-time/static/media/gallerymodern-webfont.68243cee5a09484fd476.ttf",
-    "static/media/totosmall.png": "/tea-time/static/media/totosmall.ac7fd335ef659dfea288.png",
-    "static/media/LVSHAPES.svg": "/tea-time/static/media/LVSHAPES.630a8d5757e0e7f0ea57fa25b5681e78.svg",
-    "static/media/howdyhat.svg": "/tea-time/static/media/howdyhat.07ef67901a95933ed210ab3232eae22d.svg",
-    "static/media/github-brands.svg": "/tea-time/static/media/github-brands.e2f073269da5b56e82387b15c3b59f5a.svg",
-    "index.html": "/tea-time/index.html",
-    "main.95689105.css.map": "/tea-time/static/css/main.95689105.css.map",
-    "main.e0855198.js.map": "/tea-time/static/js/main.e0855198.js.map",
-    "453.87e94317.chunk.js.map": "/tea-time/static/js/453.87e94317.chunk.js.map"
+    "main.css": "/afternoontea/static/css/main.4ba5dd02.css",
+    "main.js": "/afternoontea/static/js/main.442d89a2.js",
+    "static/js/453.87e94317.chunk.js": "/afternoontea/static/js/453.87e94317.chunk.js",
+    "static/media/orog.png": "/afternoontea/static/media/orog.ee0eaaa4216a34f3f8b6.png",
+    "static/media/weatherSS.png": "/afternoontea/static/media/weatherSS.06f4630a5ada48bd978d.png",
+    "static/media/saturn.png": "/afternoontea/static/media/saturn.bb5df6264b38f39272d6.png",
+    "static/media/callivy.svg": "/afternoontea/static/media/callivy.f7292b76cc64e707fa16d1e5e38814cf.svg",
+    "static/media/emailme.svg": "/afternoontea/static/media/emailme.e0707ef93f1db62626b8a68fb434d4f2.svg",
+    "static/media/ivygoing.png": "/afternoontea/static/media/ivygoing.064690963b9bf3ff6142.png",
+    "static/media/FitzMauriceJillian_Resume.pdf": "/afternoontea/static/media/FitzMauriceJillian_Resume.876cdb549e8185153bcd.pdf",
+    "static/media/gallerymodern-webfont.ttf": "/afternoontea/static/media/gallerymodern-webfont.68243cee5a09484fd476.ttf",
+    "static/media/totosmall.png": "/afternoontea/static/media/totosmall.ac7fd335ef659dfea288.png",
+    "static/media/LVSHAPES.svg": "/afternoontea/static/media/LVSHAPES.630a8d5757e0e7f0ea57fa25b5681e78.svg",
+    "static/media/howdyhat.svg": "/afternoontea/static/media/howdyhat.07ef67901a95933ed210ab3232eae22d.svg",
+    "static/media/github-brands.svg": "/afternoontea/static/media/github-brands.e2f073269da5b56e82387b15c3b59f5a.svg",
+    "index.html": "/afternoontea/index.html",
+    "main.4ba5dd02.css.map": "/afternoontea/static/css/main.4ba5dd02.css.map",
+    "main.442d89a2.js.map": "/afternoontea/static/js/main.442d89a2.js.map",
+    "453.87e94317.chunk.js.map": "/afternoontea/static/js/453.87e94317.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95689105.css",
-    "static/js/main.e0855198.js"
+    "static/css/main.4ba5dd02.css",
+    "static/js/main.442d89a2.js"
   ]
 }
