@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/afternoontea/static/css/main.5f19cede.css",
-    "main.js": "/afternoontea/static/js/main.eb553b55.js",
+    "main.css": "/afternoontea/static/css/main.883f3e35.css",
+    "main.js": "/afternoontea/static/js/main.2b9b4760.js",
     "static/js/453.87e94317.chunk.js": "/afternoontea/static/js/453.87e94317.chunk.js",
     "static/media/orog.png": "/afternoontea/static/media/orog.ee0eaaa4216a34f3f8b6.png",
     "static/media/weatherSS.png": "/afternoontea/static/media/weatherSS.06f4630a5ada48bd978d.png",
@@ -16,12 +16,12 @@
     "static/media/howdyhat.svg": "/afternoontea/static/media/howdyhat.07ef67901a95933ed210ab3232eae22d.svg",
     "static/media/github-brands.svg": "/afternoontea/static/media/github-brands.e2f073269da5b56e82387b15c3b59f5a.svg",
     "index.html": "/afternoontea/index.html",
-    "main.5f19cede.css.map": "/afternoontea/static/css/main.5f19cede.css.map",
-    "main.eb553b55.js.map": "/afternoontea/static/js/main.eb553b55.js.map",
+    "main.883f3e35.css.map": "/afternoontea/static/css/main.883f3e35.css.map",
+    "main.2b9b4760.js.map": "/afternoontea/static/js/main.2b9b4760.js.map",
     "453.87e94317.chunk.js.map": "/afternoontea/static/js/453.87e94317.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f19cede.css",
-    "static/js/main.eb553b55.js"
+    "static/css/main.883f3e35.css",
+    "static/js/main.2b9b4760.js"
   ]
 }
