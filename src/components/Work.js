@@ -66,6 +66,16 @@ export default function Work() {
     <div >
      <a href="https://github.com/ShyFidelity"><img width="300px"src={Github} alt="github logo" /></a>
       
+
+
+     <section>
+
+  <div class="wave wave1"></div>
+  <div class="wave wave2"></div>
+  <div class="wave wave3"></div>
+  <div class="wave wave4"></div>
+</section>
+  
       {/* <h1>WORK</h1>
 
     <div className="work-data">

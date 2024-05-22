@@ -19,8 +19,8 @@ const boxStyle = {
 export default function Design() {
   return (
     <div className={boxStyle} designWork>
-
-      <img width="300px"src={Toto} alt="Work woof woof" />
+      <div className="oneHundred"> <p className="totoSays">Toto says check out some examples of my latest work. There are design projects and front end builds in a low-code environment. </p><img width="300px"src={Toto} alt="Work woof woof" /></div>
+     
       <ul className="workLi">
       
       <li><a className="workLi" href="https://www.boltstack.com"> I designed and built this marketing Website's front end </a></li>

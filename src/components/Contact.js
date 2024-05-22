@@ -12,6 +12,8 @@ const boxStyle = {
 const Contact = () => {
     return (
         <div className='contact' style={boxStyle}>
+        
+        
                       {" "}
           <a
            
