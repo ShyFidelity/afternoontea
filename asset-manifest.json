@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/tea-time/static/css/main.f855e6bc.css",
-    "main.js": "/tea-time/static/js/main.c196c73f.js",
+    "main.css": "/tea-time/static/css/main.95689105.css",
+    "main.js": "/tea-time/static/js/main.e0855198.js",
     "static/js/453.87e94317.chunk.js": "/tea-time/static/js/453.87e94317.chunk.js",
-    "static/media/logo.svg": "/tea-time/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/orog.png": "/tea-time/static/media/orog.ee0eaaa4216a34f3f8b6.png",
+    "static/media/weatherSS.png": "/tea-time/static/media/weatherSS.06f4630a5ada48bd978d.png",
+    "static/media/saturn.png": "/tea-time/static/media/saturn.bb5df6264b38f39272d6.png",
+    "static/media/callivy.svg": "/tea-time/static/media/callivy.f7292b76cc64e707fa16d1e5e38814cf.svg",
+    "static/media/emailme.svg": "/tea-time/static/media/emailme.e0707ef93f1db62626b8a68fb434d4f2.svg",
+    "static/media/ivygoing.png": "/tea-time/static/media/ivygoing.064690963b9bf3ff6142.png",
+    "static/media/FitzMauriceJillian_Resume.pdf": "/tea-time/static/media/FitzMauriceJillian_Resume.876cdb549e8185153bcd.pdf",
+    "static/media/gallerymodern-webfont.ttf": "/tea-time/static/media/gallerymodern-webfont.68243cee5a09484fd476.ttf",
+    "static/media/totosmall.png": "/tea-time/static/media/totosmall.ac7fd335ef659dfea288.png",
+    "static/media/LVSHAPES.svg": "/tea-time/static/media/LVSHAPES.630a8d5757e0e7f0ea57fa25b5681e78.svg",
+    "static/media/howdyhat.svg": "/tea-time/static/media/howdyhat.07ef67901a95933ed210ab3232eae22d.svg",
+    "static/media/github-brands.svg": "/tea-time/static/media/github-brands.e2f073269da5b56e82387b15c3b59f5a.svg",
     "index.html": "/tea-time/index.html",
-    "main.f855e6bc.css.map": "/tea-time/static/css/main.f855e6bc.css.map",
-    "main.c196c73f.js.map": "/tea-time/static/js/main.c196c73f.js.map",
+    "main.95689105.css.map": "/tea-time/static/css/main.95689105.css.map",
+    "main.e0855198.js.map": "/tea-time/static/js/main.e0855198.js.map",
     "453.87e94317.chunk.js.map": "/tea-time/static/js/453.87e94317.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.c196c73f.js"
+    "static/css/main.95689105.css",
+    "static/js/main.e0855198.js"
   ]
 }
