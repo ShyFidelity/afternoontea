@@ -1,4 +1,4 @@
-import Res from '../images/FitzMauriceJillian_Resume.pdf'
+import Res from '../images/JillianFitzMaurice524242.pdf'
 
 const boxStyle = {
     height: '500px',
