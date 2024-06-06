@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/afternoontea/static/css/main.47b854a3.css",
-    "main.js": "/afternoontea/static/js/main.5116a545.js",
+    "main.css": "/afternoontea/static/css/main.7cddd430.css",
+    "main.js": "/afternoontea/static/js/main.3e920425.js",
     "static/js/453.87e94317.chunk.js": "/afternoontea/static/js/453.87e94317.chunk.js",
     "static/media/totoSS.png": "/afternoontea/static/media/totoSS.6b49e5f95ad80c46a635.png",
     "static/media/newjill.png": "/afternoontea/static/media/newjill.c978e1c3500a97636e21.png",
@@ -18,12 +18,12 @@
     "static/media/openfilledPM.svg": "/afternoontea/static/media/openfilledPM.208d602441ee61f88864f227b7e78579.svg",
     "static/media/github-brands.svg": "/afternoontea/static/media/github-brands.e2f073269da5b56e82387b15c3b59f5a.svg",
     "index.html": "/afternoontea/index.html",
-    "main.47b854a3.css.map": "/afternoontea/static/css/main.47b854a3.css.map",
-    "main.5116a545.js.map": "/afternoontea/static/js/main.5116a545.js.map",
+    "main.7cddd430.css.map": "/afternoontea/static/css/main.7cddd430.css.map",
+    "main.3e920425.js.map": "/afternoontea/static/js/main.3e920425.js.map",
     "453.87e94317.chunk.js.map": "/afternoontea/static/js/453.87e94317.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47b854a3.css",
-    "static/js/main.5116a545.js"
+    "static/css/main.7cddd430.css",
+    "static/js/main.3e920425.js"
   ]
 }
