@@ -1,4 +1,4 @@
-import Res from '../images/JillianFitzMaurice524242.pdf'
+import Res from '../images/JillianFitzMaurice53024.pdf'
 
 const boxStyle = {
     height: '500px',
@@ -16,7 +16,7 @@ const Resume = () => {
     return (
         <div className="resume" style={boxStyle}>
 
-      <button className='btn'><a href={Res} download="JKFResume.pdf" > Download Resume </a></button>
+      <button className='btn'><a href={Res} download="JillianFitzMaurice53024.pdf" > Download Resume </a></button>
       
         </div>
     )

@@ -32,32 +32,30 @@
 }
 
 #design {
-    margin-bottom: 200px;
+    margin-bottom: 3rem;
 }
 
 .totoSays {
     display: flex;
     align-items: center;
-    color: rgb(242, 233, 228);
+    color: #170430;
     width: 60%;
-    font-size: 1.8rem;
+    font-size: 3rem;
     font-family: 'Lily Script One', cursive;
     margin: 1rem;
 }
 
 .oneHundred {
     width: 100%;
-    background-color: rgba(219, 164, 192, 0.224);
-    padding: 1.3rem;
+    border-bottom: #170430 1px solid;
+    padding: 1rem;
     display: flex;
-    color: rgb(242, 233, 228);
+    color: rgb(126, 18, 71);
     font-size: 1.8rem;
     font-family: 'Lily Script One', cursive;
     
-    width: 100vw;
+    width: 90vw;
     
     align-items: end;
-    border-radius: 30px;
-    margin: 30px;
     justify-content: center;
 }

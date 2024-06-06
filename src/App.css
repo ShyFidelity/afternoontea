@@ -55,9 +55,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(178deg, #12484e, #1f021b, #080321, #534c7c);
+  background: linear-gradient(178deg, #457980, #eef8f0, #efeef4, #ebf4ed);
   background-size: 700% 800%;
-  -webkit-animation: AnimationName 10s ease infinite;
+  -webkit-animation: AnimationName 3s ease infinite;
   -moz-animation: AnimationName 10s ease infinite;
   animation: AnimationName 10s ease infinite;
 }
@@ -113,7 +113,7 @@
 }
 
 li {
-  color: #080321;
+  color: #170420;
   background: rgba(255, 255, 255, 0.858); 
   padding:2rem;
   border-radius: 20px;
@@ -125,10 +125,10 @@ li {
 }
 
 
-.workLi {
+.workLi, .jillian {
   text-decoration: none;
-  color: #080321;
-  font-size: 1.2rem;
+  color: #170420;
+  font-size: 1.8rem;
   font-family: "Josefin Sans", sans-serif;
   text-align: left !important;
   list-style:circle;
@@ -137,19 +137,25 @@ li {
 
 
 }
+
 .btn {
   padding: 14px;
   border: #12084b solid 3px;
   border-radius: 10px;
-  color: #534c7c;
+  color: #e1dfea;
   background-color: rgb(6, 60, 80);
   font-family: "Josefin Sans", sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: #f5eff9;
   font-size: 1.4rem;
+}
+
+h1 {
+  color: #170420;
+  font-family: "Josefin Sans", sans-serif;
 }
 .work-data {
   z-index: 3;
@@ -161,8 +167,8 @@ a {
 }
 
 p {
-  font-family: "Josefin Sans", sans-serif;
-  color: rgb(242, 233, 228);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(6, 1, 17);
   font-size: 32px;
   letter-spacing: 2px;
 }
@@ -183,34 +189,7 @@ p {
   background: url(https://i.imgur.com/DLD3N2t.png);
   background-size: 100vw 20vh;
 }
-.wave1 {
-  animation: animate 20s linear infinite;
-  z-index: 15;
-  opacity: 0.9;
-  animation-delay: 0s;
-  bottom: 0;
-}
-.wave2 {
-  animation: animate2 15s linear infinite;
-  z-index: 10;
-  opacity: 0.7;
-  animation-delay: -5s;
-  bottom: 10px;
-}
-.wave3 {
-  animation: animate 10s linear infinite;
-  z-index: 5;
-  opacity: 0.4;
-  animation-delay: -2s;
-  bottom: 15px;
-}
-.wave4 {
-  animation: animate2 5s linear infinite;
-  z-index: 1;
-  opacity: 0.5;
-  animation-delay: -5s;
-  bottom: 20px;
-}
+
 @keyframes animate {
   0% {
     background-position-x: 0;
