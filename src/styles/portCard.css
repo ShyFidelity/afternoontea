@@ -47,9 +47,16 @@
 
 .oneHundred {
     width: 100%;
-    background-color: rgba(245, 112, 134, 0.415);
-    padding: 2rem;
+    background-color: rgba(219, 164, 192, 0.224);
+    padding: 1.3rem;
     display: flex;
+    color: rgb(242, 233, 228);
+    font-size: 1.8rem;
+    font-family: 'Lily Script One', cursive;
+    
+    width: 100vw;
+    
+    align-items: end;
     border-radius: 30px;
     margin: 30px;
     justify-content: center;

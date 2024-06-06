@@ -52,7 +52,7 @@
 
 .App {
   padding-top: 40px; 
-  background: linear-gradient(178deg, #12484e, #612e59, #12084b, #534c7c);
+  background: linear-gradient(178deg, #12484e, #1f021b, #080321, #534c7c);
   background-size: 700% 800%;
   -webkit-animation: AnimationName 10s ease infinite;
   -moz-animation: AnimationName 10s ease infinite;
@@ -110,8 +110,12 @@
 }
 
 li {
-  color: rgb(242, 233, 228);
+  color: #080321;
+  background: rgba(255, 255, 255, 0.858); 
+  padding:2rem;
+  border-radius: 20px;
   font-size: 1.8rem;
+  height: 200px;
   font-family: 'Lily Script One', cursive;
   margin: 2rem;
   width: 100vw;
@@ -119,12 +123,12 @@ li {
 
 
 .workLi {
-  text-decoration: underline;
-  color: #c6e0fe;
+  text-decoration: none;
+  color: #080321;
   font-size: 1.2rem;
-  font-family: 'Josefin Sans';
+  font-family: "Josefin Sans", sans-serif;
   text-align: left !important;
-  list-style: none;
+  list-style:circle;
   margin-left: auto;
   margin-right: auto;
 
@@ -220,6 +224,15 @@ p {
     background-position-x: -100vw;
   }
 }
+
+
+.about {
+  border: 2px double white; 
+  margin: 30px;
+  border-radius: 20px;
+
+}
+
 
 
 .cardtext {

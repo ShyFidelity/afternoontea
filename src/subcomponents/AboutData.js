@@ -26,6 +26,7 @@ const plxStyles = {
   justifyContent: "center",
   textAlign: "center",
   padding: 40,
+  borderradius: 20, 
   color: "#fff",
   position: "relative",
   width: "100%",
