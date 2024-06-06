@@ -59,7 +59,7 @@ export default function Work() {
       <Card imgSrc={Boltstack}
       imgAlt="a screenshot of a Boltstack website talking about AI"
        title="Boltstack"
-       info="This is marketing site where I was lead designer and front-end dev. I developed all graphics and worked with our engineers for front-end functionality"
+       info="Discover Boltstack.com, where I led marketing efforts and front-end development. From graphics to functionality and mobile-friendly design, I crafted it all with precision and passion. Working closely with an engineering team, I ensured all User Auth functionality."
        link= "www.boltstack.com"
        buttonText="Go to site"
        />
@@ -72,13 +72,13 @@ export default function Work() {
        
        <Card imgSrc={WonderInk}
        title="WonderInk Case Study"
-       info="Adobe XD Case study for Wonder Ink a Learning Management System for youth groups and families "
+       info="WonderInk is a learning management system for leaders, parents, and students. I revamped the front-end interface to align with brand recognition, taking the lead in design decisions. Additionally, I developed the parent portal as a vital link between parents, students, and youth leaders, fostering continuous engagement in learning throughout the week. Through curated videos and interactive games, it facilitates a dynamic educational experience for all involved. Log-in info available upon request"
        link="https://xd.adobe.com/view/b3f471b6-89cd-4b01-aaa8-60b6307dc14d-e6a7/"
-       buttonText="Go to site"/>
+       buttonText="Go to Adobe XD Case Study"/>
 
 <Card imgSrc={Pill}
        title="RemiRX Figma"
-       info="Figma Mock up for RemiRx app for managing medication using a bluetooth pillbox"
+       info="Review the Figma mockup presenting RemiRx, an app designed for managing medication using a Bluetooth pillbox. Explore its user-friendly interface and innovative features tailored to streamline healthcare management."
        link="https://www.figma.com/board/HG0IgJzCDkCGT8pyc2MGIZ/Untitled?node-id=0-1&t=j7UsmEy5qFqBadO9-1"
        buttonText="Go to site"/>
 

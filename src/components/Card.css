@@ -1,7 +1,7 @@
 .card-container {
     width: 80vw;
     border-radius: 1rem;
-    box-shadow: 2px 3px 15px 0px #cfc4cf;
+    box-shadow: 2px 3px 2px 0px #c5a4c597;
     display: flex;
    flex-direction: row;
  
@@ -56,7 +56,7 @@
 .card-btn {
     text-align: center;
     width: 100%;
-    background-color:#fa56b7;
+    background-color:#170420;
     margin: 0.5rem;
     padding: 0.5rem;
     border-radius: 0.5rem;
@@ -144,7 +144,7 @@
 }
 
 .hat {
-    width: 250px;
+    width: 500px;
 }
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)

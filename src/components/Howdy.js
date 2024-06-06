@@ -1,6 +1,6 @@
 
 
-import HowdyHat from '../images/howdyhat.svg'
+import HowdyHat from '../images/howdy.svg'
 
 const exampleParallaxData = [
   {
@@ -51,7 +51,7 @@ const Howdy = () => {
         <div>
 
         <div margin="30px" padding="40px" style={wrapperStyles}>
-        <object className='hat' width="500px" margin="30px"  data={HowdyHat}/>
+        <object className='hat' width="600px" margin="30px"  data={HowdyHat}/>
         </div>
         </div>
     )
