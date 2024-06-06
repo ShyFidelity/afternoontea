@@ -4,6 +4,7 @@ import Weather from "../images/weatherSS.png";
 import Ivy from "../images/ivygoing.png";
 import Toto from '../images/totosmall.png'
 import Github from '../images/github-brands.svg'
+import { Card } from "./Card";
 
 
 const boxStyle = {
@@ -64,6 +65,7 @@ const mediastyle = {
 export default function Work() {
   return (
     <div >
+      <Card />
      <a href="https://github.com/ShyFidelity"><img width="300px"src={Github} alt="github logo" /></a>
       
 
