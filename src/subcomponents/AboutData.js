@@ -25,20 +25,20 @@ const plxStyles = {
   alignItems: "center",
   justifyContent: "center",
   textAlign: "center",
-  padding: 40,
+  padding: 20,
   borderradius: 20, 
-  color: "#fff",
+
   position: "relative",
   width: "100%",
   height:500,
-  width:470,
+  width:320,
   flexDirection: "column",
 };
 
 const wrapperStyles = {
   position: "relative",
   height:450,
-  width: 550,  
+  width: 320,  
   overflow: "hidden",
   endValue: 500,
   properties: [

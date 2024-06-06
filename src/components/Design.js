@@ -20,7 +20,7 @@ const boxStyle = {
 export default function Design() {
   return (
     <div className={boxStyle} designWork>
-      <div className="oneHundred"> <p className="totoSays">Work</p><img width="300px"src={Spacehorse} alt="Work woof woof" /></div>
+      <div className="oneHundred"> <p className="totoSays">Work</p></div>
      
  
    

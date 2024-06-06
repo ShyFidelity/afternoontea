@@ -3,7 +3,7 @@
     border-radius: 1rem;
     box-shadow: 2px 3px 15px 0px #cfc4cf;
     display: flex;
-   flex-direction: row !important;
+   flex-direction: row;
  
     background-color: rgb(251, 252, 253);
     height: fit-content;
@@ -66,3 +66,133 @@
     align-self: center;
 
 }
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+
+    .card-container {
+        width: auto;
+        
+       flex-direction: column !important;
+       align-items: center;
+     
+        background-color: rgb(251, 252, 253);
+        height: fit-content;
+        border-bottom: #999 1px solid;
+        padding: 1rem;
+        margin: 1rem;
+        margin-bottom: 2rem;
+    }
+    .card-img {
+        width: 100%;
+        height: auto;
+        border-radius: 1rem;
+        margin-top: 10px;
+    }
+    .card-desc, .card-inside  {
+        width: auto;
+        margin-top: 0.5rem;
+    }
+  }
+
+  .oneHundred {
+    flex-direction: column-reverse;
+}
+
+.aboutData {
+    width: 320px !important;
+}
+
+.about {
+    border: none;
+    margin: 10px;
+}
+
+.hat {
+    width: 250px;
+}
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .card-container {
+        width: auto;
+        
+       flex-direction: column !important;
+       align-items: center;
+     
+        background-color: rgb(251, 252, 253);
+        height: fit-content;
+        border-bottom: #999 1px solid;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        margin: 1rem;
+    }
+
+    .card-img {
+        width: 100%;
+        height: auto;
+        border-radius: 1rem;
+        margin-top: 10px;
+    }
+
+    .card-desc, .card-inside  {
+        width: auto;
+        margin-top: 0.5rem;
+    }
+
+    .oneHundred {
+        flex-direction: column-reverse;
+    }
+
+    .aboutData {
+        width: 320px !important;
+    }
+
+    .about {
+        border: none;
+        margin: 10px;
+    }
+    
+    .hat {
+        width: 250px;
+    }
+  }

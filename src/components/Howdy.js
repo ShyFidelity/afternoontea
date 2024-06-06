@@ -31,7 +31,7 @@ const plxStyles = {
 
 const wrapperStyles = {
   position: "relative",
-  height:450,
+  height:300,
   overflow: "hidden",
   endValue: 500,
   properties: [
@@ -51,7 +51,7 @@ const Howdy = () => {
         <div>
 
         <div margin="30px" padding="40px" style={wrapperStyles}>
-        <object width="500px" margin="30px"  data={HowdyHat}/>
+        <object className='hat' width="500px" margin="30px"  data={HowdyHat}/>
         </div>
         </div>
     )
