@@ -31,7 +31,6 @@ const plxStyles = {
 
 const wrapperStyles = {
   position: "relative",
-  height:300,
   overflow: "hidden",
   endValue: 500,
   properties: [

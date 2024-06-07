@@ -26,7 +26,6 @@ const plxStyles = {
   alignItems: "center",
   justifyContent: "center",
   textAlign: "center",
-  padding: 20,
   borderradius: 20, 
 
   position: "relative",

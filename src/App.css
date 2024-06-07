@@ -224,8 +224,6 @@ p {
 
 
 .about {
-  border: 2px double white; 
-  width: 100%;
   margin: 30px;
   display: flex;
   flex-direction: row;
