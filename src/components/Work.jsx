@@ -63,7 +63,7 @@ export default function Work() {
        title="Boltstack"
        info="Discover Boltstack.com, where I led marketing efforts and front-end development. From graphics to functionality and mobile-friendly design, I crafted it all with precision and passion. Working closely with an engineering team, I ensured all User Auth functionality."
        link= "https://esp-dev.softwarebbd.com/?rr_dev=true&"
-       buttonText="Got to site"
+       buttonText="Go to site"
        />
        
        <Card imgSrc={Edqualis}
@@ -110,7 +110,7 @@ export default function Work() {
 
 
 
-      <div className="github"><a href="https://github.com/ShyFidelity" className="github"><img width="300px"src={Github} alt="github logo" /></a></div>
+     
 
      
       

@@ -17,12 +17,6 @@ export const Card = ({
         <div className='card-inside'>
         <h1 className='card-title'>{title}</h1>
         <img className='card-img' src={imgSrc}></img>
-   
-
-  
-        
-        
-
         </div>
         <div className='card-desc'>
         <p className='card-info'>{info}</p>
