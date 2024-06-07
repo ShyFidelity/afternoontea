@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/afternoontea/static/css/main.560b6bf4.css",
-    "main.js": "/afternoontea/static/js/main.6cff4f0d.js",
+    "main.css": "/afternoontea/static/css/main.50ee6339.css",
+    "main.js": "/afternoontea/static/js/main.001e95b6.js",
     "static/js/453.87e94317.chunk.js": "/afternoontea/static/js/453.87e94317.chunk.js",
     "static/media/totoSS.png": "/afternoontea/static/media/totoSS.6b49e5f95ad80c46a635.png",
     "static/media/newjill.png": "/afternoontea/static/media/newjill.c978e1c3500a97636e21.png",
+    "static/media/edqualisss.png": "/afternoontea/static/media/edqualisss.01c10c1bfd7c1a5daa82.png",
+    "static/media/profpic2me.jpg": "/afternoontea/static/media/profpic2me.ed90dee92e094439beca.jpg",
     "static/media/BoltstackSS.png": "/afternoontea/static/media/BoltstackSS.b69c3d5cb2a1876af175.png",
     "static/media/giddysmall.png": "/afternoontea/static/media/giddysmall.2963f01d1faaa35c2560.png",
     "static/media/wonderinkgraphic.png": "/afternoontea/static/media/wonderinkgraphic.54dbf35c765dcbc42b9c.png",
     "static/media/saturn.png": "/afternoontea/static/media/saturn.bb5df6264b38f39272d6.png",
+    "static/media/mainToday.png": "/afternoontea/static/media/mainToday.2ff98e49e09ae59a5f2a.png",
     "static/media/callivy.svg": "/afternoontea/static/media/callivy.f7292b76cc64e707fa16d1e5e38814cf.svg",
     "static/media/emailme.svg": "/afternoontea/static/media/emailme.e0707ef93f1db62626b8a68fb434d4f2.svg",
     "static/media/gallerymodern-webfont.ttf": "/afternoontea/static/media/gallerymodern-webfont.68243cee5a09484fd476.ttf",
@@ -18,12 +21,12 @@
     "static/media/openfilledPM.svg": "/afternoontea/static/media/openfilledPM.208d602441ee61f88864f227b7e78579.svg",
     "static/media/github-brands.svg": "/afternoontea/static/media/github-brands.e2f073269da5b56e82387b15c3b59f5a.svg",
     "index.html": "/afternoontea/index.html",
-    "main.560b6bf4.css.map": "/afternoontea/static/css/main.560b6bf4.css.map",
-    "main.6cff4f0d.js.map": "/afternoontea/static/js/main.6cff4f0d.js.map",
+    "main.50ee6339.css.map": "/afternoontea/static/css/main.50ee6339.css.map",
+    "main.001e95b6.js.map": "/afternoontea/static/js/main.001e95b6.js.map",
     "453.87e94317.chunk.js.map": "/afternoontea/static/js/453.87e94317.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.560b6bf4.css",
-    "static/js/main.6cff4f0d.js"
+    "static/css/main.50ee6339.css",
+    "static/js/main.001e95b6.js"
   ]
 }
