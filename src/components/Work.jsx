@@ -6,6 +6,8 @@ import Github from '../images/github-brands.svg'
 import { Card } from "./Card";
 import WonderInk from '../images/wonderinkgraphic.png'
 import VideoJill from '../images/newjill.png'
+import Prayer from '../images/mainToday.png'
+import Edqualis from '../images/edqualisss.png'
 const boxStyle = {
   height: "600px",
   width: "100vw",
@@ -60,20 +62,29 @@ export default function Work() {
       imgAlt="a screenshot of a Boltstack website talking about AI"
        title="Boltstack"
        info="Discover Boltstack.com, where I led marketing efforts and front-end development. From graphics to functionality and mobile-friendly design, I crafted it all with precision and passion. Working closely with an engineering team, I ensured all User Auth functionality."
-       link= "www.boltstack.com"
-       buttonText="Go to site"
+       link= "https://esp-dev.softwarebbd.com/?rr_dev=true&"
+       buttonText="Got to site"
        />
        
-       <Card imgSrc={Toto}
-       title="Friends of Toto"
-       info="A vibrant pet socialization platform that allows enthusiasts to connect, share adorable photos, and engage in a lively community. Leveraged technologies such as React, Node.js, GraphQL, MongoDB, and AWS S3 to create a dynamic and user-friendly web application, showcasing proficiency in full-stack web development and cloud services for storage and scalability."
-       link="https://friendsoftoto.herokuapp.com/"
-       buttonText="Go to site"/>
+       <Card imgSrc={Edqualis}
+      imgAlt="a screenshot of a Boltstack website talking about AI"
+       title="Edqualis"
+       info="Edqualis is an expansive education platform that engages admins, teachers, and students in one place. With the ability to generate content, forms, custom Dashboards, classes, lessons, rubrics, and custom branded UI.
+       Reskinned the entire application to give a more modern look as the current was very outdated. The new look created greater interest to investors looking to buy our product."
+       link= "www.boltstack.com"
+       buttonText="Log in available upon request"
+       />
        
        <Card imgSrc={WonderInk}
        title="WonderInk Case Study"
        info="WonderInk is a learning management system for leaders, parents, and students. I revamped the front-end interface to align with brand recognition, taking the lead in design decisions. Additionally, I developed the parent portal as a vital link between parents, students, and youth leaders, fostering continuous engagement in learning throughout the week. Through curated videos and interactive games, it facilitates a dynamic educational experience for all involved. Log-in info available upon request"
        link="https://xd.adobe.com/view/b3f471b6-89cd-4b01-aaa8-60b6307dc14d-e6a7/"
+       buttonText="Go to Adobe XD Case Study"/>
+
+<Card imgSrc={Prayer}
+       title="Answered"
+       info="Adobe XD mock up of an app that connects religious groups to form community lead prayers across multiple platforms and locations."
+       link="https://xd.adobe.com/view/fa61ba9a-951f-4191-ac83-316fc359dd9d-af32/" 
        buttonText="Go to Adobe XD Case Study"/>
 
 <Card imgSrc={Pill}
@@ -91,11 +102,17 @@ export default function Work() {
        buttonText="Watch on Vimeo"/>
        
 
+       <Card imgSrc={Toto}
+       title="Friends of Toto"
+       info="A vibrant pet socialization platform that allows enthusiasts to connect, share adorable photos, and engage in a lively community. Leveraged technologies such as React, Node.js, GraphQL, MongoDB, and AWS S3 to create a dynamic and user-friendly web application, showcasing proficiency in full-stack web development and cloud services for storage and scalability."
+       link="https://friendsoftoto.herokuapp.com/"
+       buttonText="Go to site"/>
 
 
 
+      <div className="github"><a href="https://github.com/ShyFidelity" className="github"><img width="300px"src={Github} alt="github logo" /></a></div>
 
-     <a href="https://github.com/ShyFidelity" margin-top="20px"><img width="300px"src={Github} alt="github logo" /></a>
+     
       
 
       </div>

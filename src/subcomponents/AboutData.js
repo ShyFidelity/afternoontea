@@ -1,5 +1,6 @@
 
 import React, { Component } from "react";
+import Jillian from '../images/profpic2me.jpg'
 
 
 import { render } from "react-dom";
@@ -32,13 +33,13 @@ const plxStyles = {
   width: "100%",
   height:500,
   width:320,
-  flexDirection: "column",
+  flexDirection: "row",
 };
 
 const wrapperStyles = {
   position: "relative",
   height:450,
-  width: 320,  
+  
   overflow: "hidden",
   endValue: 500,
   properties: [
@@ -54,11 +55,10 @@ const wrapperStyles = {
 const AboutData = () => {
   return (
     <div  >
-      <div className="aboutData" style={{ height: 450, width: 550}}>
+      <div className="aboutData" style={{ height: 450, width: 320}}>
         <div style={wrapperStyles}>
           <Plx parallaxData={exampleParallaxData} style={plxStyles}>
-          <p className="jillian">I'm Jillian, an artist, UI/UX developer, and graphic designer. Excited about creative work outside the realm of the status quo. Currently, love learning about CSS and SVG animations.</p>
-        
+          <p className="jillian">Hi! I'm Jillian, a dynamic artist, UI/UX developer, and front-end builder who thrives on pushing creative boundaries. I'm passionate about crafting unique and engaging digital experiences that stand out from the status quo. Let's create something amazing together!</p>
           </Plx>
         </div>
       </div>

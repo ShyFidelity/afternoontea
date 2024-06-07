@@ -41,13 +41,13 @@
     color: #170430;
     font-size: 3rem;
     font-family: 'Lily Script One', cursive;
-    margin: 1rem;
+    margin-bottom: 1rem;
+    
 }
 
 .oneHundred {
     width: 100%;
-    border-bottom: #170430 1px solid;
-    padding: 1rem;
+    border-bottom: #17043093 0.5px solid;
     display: flex;
     color: rgb(126, 18, 71);
     font-size: 1.8rem;

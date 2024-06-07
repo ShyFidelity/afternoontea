@@ -128,7 +128,7 @@ li {
 .workLi, .jillian {
   text-decoration: none;
   color: #170420;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-family: "Josefin Sans", sans-serif;
   text-align: left !important;
   list-style:circle;
@@ -152,6 +152,21 @@ a {
   color: #f5eff9;
   font-size: 1.4rem;
 }
+
+.contacta {
+  text-decoration: none;
+  color: #170420;
+  font-size: 1.4rem;
+}
+
+.contactData {
+  display: flex;
+  width: 90vw;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
 
 h1 {
   color: #170420;
@@ -210,9 +225,17 @@ p {
 
 .about {
   border: 2px double white; 
+  width: 100%;
   margin: 30px;
+  display: flex;
+  flex-direction: row;
   border-radius: 20px;
 
+}
+
+.aboutData {
+  display: flex;
+  flex-direction: row;
 }
 
 
@@ -221,6 +244,11 @@ p {
   font-family: "Josefin Sans", sans-serif;
 
   color: rgb(6, 60, 80);
+}
+
+
+.github {
+  margin-top: 4rem; 
 }
 
 .MuiCardMedia-img {

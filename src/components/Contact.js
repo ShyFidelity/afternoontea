@@ -2,7 +2,7 @@ import callMe from '../images/callivy.svg'
 import emailMe from '../images/emailme.svg'
 const boxStyle = {
     height: '300px',
-    paddingTop: '300px', 
+    paddingTop: '5rem', 
     width: '100vw', 
    
     margin:0
@@ -12,19 +12,19 @@ const boxStyle = {
 const Contact = () => {
     return (
         <div className='contact' style={boxStyle}>
-        
-        
-                      {" "}
-          <a
+          <div className="oneHundred"> <p className="totoSays">Contact</p></div>
+        <div className='contactData'> <a className='contacta'
            
-            href="tel:3039013230"
-            onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
-          >
-            <img style={{height:360}} src={callMe} alt= "iphone saying call me" />
-        
-          </a>
+           href="tel:3039013230"
+           onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
+         >
+           (303) 901-3230
        
-          <a href="mailto:fitzmauricejillian@gmail.com"> <img style={{height:300}}  src={emailMe} alt="arrow saying email me" /> </a>
+         </a>
+      
+         <a className='contacta' href="mailto:fitzmauricejillian@gmail.com"> fitzmauricejillian@gmail.com </a></div>
+                      {" "}
+         
         </div>
     )
 }
