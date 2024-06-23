@@ -8,6 +8,8 @@ import WonderInk from '../images/wonderinkgraphic.png'
 import VideoJill from '../images/newjill.png'
 import Prayer from '../images/mainToday.png'
 import Edqualis from '../images/edqualisss.png'
+import EdqualisCS from '../images/2021_EdQualis_StyleSheet.png'
+
 const boxStyle = {
   height: "600px",
   width: "100vw",
@@ -73,6 +75,14 @@ export default function Work() {
        Reskinned the entire application to give a more modern look as the current was very outdated. The new look created greater interest to investors looking to buy our product."
        link= "www.boltstack.com"
        buttonText="Log in available upon request"
+       />
+
+<Card imgSrc={EdqualisCS}
+      imgAlt="a screenshot of a Boltstack website talking about AI"
+       title="Edqualis Case Study and Empathy Maps"
+       info="A deeper look at Edqualis, it's new style, and it's users needs. We take an in-depth look at the life of the user, their needs and frustrations pertaining to this software."
+       link= "https://www.figma.com/design/LYvcCqLYk36RPN5SPsIYQW/Behance-Presentation-Template-UI%2FUX-Case-study-(Community)?node-id=1-2&t=xvOpbyMZrpxANsVm-1"
+       buttonText="View Figma Project"
        />
        
        <Card imgSrc={WonderInk}
