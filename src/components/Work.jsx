@@ -8,7 +8,8 @@ import WonderInk from '../images/wonderinkgraphic.png'
 import VideoJill from '../images/newjill.png'
 import Prayer from '../images/mainToday.png'
 import Edqualis from '../images/edqualisss.png'
-import EdqualisCS from '../images/2021_EdQualis_StyleSheet.png'
+import EdqualisCS from '../images/ednewnew.png'
+import AnsweredNew from '../images/answerednew.png'
 
 const boxStyle = {
   height: "600px",
@@ -79,7 +80,7 @@ export default function Work() {
 
 <Card imgSrc={EdqualisCS}
       imgAlt="a screenshot of a Boltstack website talking about AI"
-       title="Edqualis Case Study and Empathy Maps"
+       title="Edqualis Case Study + Empathy Maps"
        info="A deeper look at Edqualis, it's new style, and it's users needs. We take an in-depth look at the life of the user, their needs and frustrations pertaining to this software."
        link= "https://www.figma.com/design/LYvcCqLYk36RPN5SPsIYQW/Behance-Presentation-Template-UI%2FUX-Case-study-(Community)?node-id=1-2&t=xvOpbyMZrpxANsVm-1"
        buttonText="View Figma Project"
@@ -91,7 +92,7 @@ export default function Work() {
        link="https://xd.adobe.com/view/b3f471b6-89cd-4b01-aaa8-60b6307dc14d-e6a7/"
        buttonText="Go to Adobe XD Case Study"/>
 
-<Card imgSrc={Prayer}
+<Card imgSrc={AnsweredNew}
        title="Answered"
        info="Adobe XD mock up of an app that connects religious groups to form community lead prayers across multiple platforms and locations."
        link="https://xd.adobe.com/view/fa61ba9a-951f-4191-ac83-316fc359dd9d-af32/" 

@@ -1,25 +1,26 @@
 .card-container {
     width: 80vw;
     border-radius: 1rem;
-    box-shadow: 2px 3px 2px 0px #c5a4c597;
+    box-shadow: 2px 3px 5px 0px #92779297;
     display: flex;
    flex-direction: row;
  
-    background-color: rgb(251, 252, 253);
+    background-color: rgb(252, 252, 252);
     height: fit-content;
-    border-bottom: #999 1px solid;
+    border: #000000 2px solid;
     padding: 2rem;
     margin-bottom: 2rem;
 }
 
 .card-title {
+  font-size: 2.1rem;
     margin: 0;
 }
 .card-inside {
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 50%;
+    width: 40%;
 }
 .card-info {
     font-size: 1rem;
@@ -34,16 +35,17 @@
     width: 50%;
     background-color: rgba(255, 255, 255, 0.224);
     border-left:#999 solid 1px;
-    padding-left:1rem;
+    padding-left:2rem;
     padding-right: 1rem;
     display: flex;
+    align-items: start;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .card-img {
     width: auto;
-    height: 17rem;
+    height: 19rem;
     border-radius: 1rem;
     margin-top: 20px;
 }
@@ -53,6 +55,8 @@
 .card-btn {
     text-align: center;
     width: 100%;
+    box-shadow: 4px 4px 2px 0px #92779297;
+    max-width: 350px;
     background-color:#170420;
     margin: 0.5rem;
     padding: 0.5rem;
@@ -60,8 +64,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    align-self: center;
 
+}
+
+.card-btn:hover {
+  box-shadow: none;
+  transform: translateY(3px);
+  transition: ease-in-out 300ms;
 }
 
 
@@ -110,7 +119,7 @@
      
         background-color: rgb(251, 252, 253);
         height: fit-content;
-        border-bottom: #999 1px solid;
+        border: #000000 2px solid;
         padding: 1rem;
         margin: 1rem;
         margin-bottom: 2rem;
@@ -174,7 +183,8 @@
      
         background-color: rgb(251, 252, 253);
         height: fit-content;
-        border-bottom: #999 1px solid;
+        border-bottom: #161616 1px solid;
+        width: 100%;
         padding: 1rem;
         margin-bottom: 2rem;
         margin: 1rem;
