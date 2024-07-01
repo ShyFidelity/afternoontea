@@ -65,9 +65,9 @@ export default function Work() {
       <Card imgSrc={Boltstack}
       imgAlt="a screenshot of a Boltstack website talking about AI"
        title="Boltstack"
-       info="Discover Boltstack.com, where I led marketing efforts and front-end development. From graphics to functionality and mobile-friendly design, I crafted it all with precision and passion. Working closely with an engineering team, I ensured all User Auth functionality."
+       info="Discover Boltstack.com, where I led marketing efforts and front-end development. I created everything on this site from graphics to functionality and CSS media queries for a mobile-friendly design. Built on internal low-code software."
     
-       link= "www.boltstack.com"
+       link= "https://www.boltstack.com/"
        buttonText="Go to site"
        />
        
@@ -76,7 +76,7 @@ export default function Work() {
        title="Edqualis"
        info="Edqualis is an expansive education platform that engages admins, teachers, and students in one place. With the ability to generate content, forms, custom Dashboards, classes, lessons, rubrics, and custom branded UI.
        Reskinned the entire application to give a more modern look as the current was very outdated. The new look created greater interest to investors looking to buy our product."
-        link= "https://esp-dev.softwarebbd.com/?rr_dev=true&"
+      link= "https://esp-dev.softwarebbd.com/?rr_dev=true&"
        buttonText="Log in available upon request"
        />
 
