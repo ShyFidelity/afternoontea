@@ -12,14 +12,14 @@ import Cactus from '../images/Oasis.png'
 
 const About = () =>{
     return (
-        <div className='cactus'>
+        
  <div className="about" >
             <AboutData/>
             
      
        
         </div>
-        </div>
+        
       
       
 
