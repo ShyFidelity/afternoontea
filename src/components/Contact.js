@@ -1,8 +1,10 @@
 import callMe from '../images/callivy.svg'
 import emailMe from '../images/emailme.svg'
 import Github from '../images/github-brands.svg'
+import Link from '../images/linkedin_3536569.png'
+import Cowgirl from '../images/callmecowgal.png'
 const boxStyle = {
-    height: '300px',
+    
     paddingTop: '5rem', 
     width: '100vw', 
    
@@ -13,6 +15,7 @@ const boxStyle = {
 const Contact = () => {
     return (
         <div className='contact' style={boxStyle}>
+          <div className="cowgirl"><img width="300px"src={Cowgirl}></img></div>
           <div className="oneHundred"> <p className="totoSays">Contact</p></div>
         <div className='contactData'> <a className='contacta'
            
@@ -24,7 +27,7 @@ const Contact = () => {
          </a>
 
          <div className="github"><a href="https://github.com/ShyFidelity" className="github"><img width="50px"src={Github} alt="github logo" /></a></div>
-      
+         <div className="github"><a href="https://www.linkedin.com/in/jillianfitzmaurice100/" className="github"><img width="50px"src={Link} alt="linkedin logo" /></a></div>
          <a className='contacta' href="mailto:fitzmauricejillian@gmail.com"> fitzmauricejillian@gmail.com </a></div>
                       {" "}
          

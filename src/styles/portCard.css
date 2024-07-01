@@ -39,7 +39,7 @@
     display: flex;
     align-items: center;
     color: #170430;
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: 'Lily Script One', cursive;
     margin-bottom: 1rem;
     
@@ -54,5 +54,5 @@
     font-family: 'Lily Script One', cursive;
     
     width: 90vw;
-    justify-content: center;
+    justify-content: start;
 }

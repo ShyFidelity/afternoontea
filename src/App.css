@@ -1,3 +1,4 @@
+
 .App {
   margin: auto;
   text-align: center; 
@@ -167,6 +168,9 @@ a {
   margin-top: 1em;
 }
 
+.cactus {
+  width: 100vw;
+}
 
 h1 {
   color: #170420;
