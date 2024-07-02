@@ -82,23 +82,23 @@ export default function Work() {
 
 <Card imgSrc={EdqualisCS}
       imgAlt="a screenshot of a Boltstack website talking about AI"
-       title="Edqualis Case Study + Empathy Maps"
+       title="Edqualis Case Study"
        info="A deeper look at Edqualis, it's new style, and it's users needs. We take an in-depth look at the life of the user, their needs and frustrations pertaining to this software."
        link= "https://www.figma.com/design/LYvcCqLYk36RPN5SPsIYQW/Behance-Presentation-Template-UI%2FUX-Case-study-(Community)?node-id=1-2&t=xvOpbyMZrpxANsVm-1"
        buttonText="View Figma Project"
        />
        
-       <Card imgSrc={WonderInk}
-       title="WonderInk Case Study"
+       {<Card imgSrc={WonderInk}
+       title="WonderInk Application"
        info="WonderInk is a learning management system for leaders, parents, and students. I revamped the front-end interface to align with brand recognition, taking the lead in design decisions. Additionally, I developed the parent portal as a vital link between parents, students, and youth leaders, fostering continuous engagement in learning throughout the week. Through curated videos and interactive games, it facilitates a dynamic educational experience for all involved. Log-in info available upon request"
-       link="https://xd.adobe.com/view/b3f471b6-89cd-4b01-aaa8-60b6307dc14d-e6a7/"
-       buttonText="Go to Adobe XD Case Study"/>
+       link="https://app.wonderink.org/?"
+       buttonText="Log in available upon request"/>
 
-<Card imgSrc={AnsweredNew}
+/*<Card imgSrc={AnsweredNew}
        title="Answered"
        info="Adobe XD mock up of an app that connects religious groups to form community lead prayers across multiple platforms and locations."
        link="https://xd.adobe.com/view/fa61ba9a-951f-4191-ac83-316fc359dd9d-af32/" 
-       buttonText="Go to Adobe XD Case Study"/>
+       buttonText="Go to Adobe XD Case Study"/> */}
 
 <Card imgSrc={Pill}
        title="RemiRX Figma"
@@ -107,8 +107,8 @@ export default function Work() {
        buttonText="Go to Figma"/>
        
        <Card imgSrc={Unicorn}
-       title="In progress Wine App"
-       info="Personal project featuring a wine for the wild at heart."
+       title="Wildling Wine"
+       info="Personal project featuring a wine for the wild at heart in Figma."
        link="https://www.figma.com/design/8hRULjo8LQtr52zv2Sfxxb/Jillian-Wine-Ecom-V1?node-id=30-3&t=RySMoqovo5t5LT86-1"
        buttonText="Go to Figma"/>
 
