@@ -10,32 +10,26 @@ import {
   ScrollingProvider,
   useScrollSection,
   Section,
-} from "react-scroll-section";
+} from 'react-scroll-section';
 
 const StaticMenu = () => {
-  const aboutSection = useScrollSection("about");
   const contactSection = useScrollSection("contact");
-  const resumeSection = useScrollSection("resume");
-  const workSection = useScrollSection("work");
-  const designSection = useScrollSection("design")
+  const workSection = useScrollSection('work');
+  const aboutSection = useScrollSection('about');
+
 
   return (
     <ul className="Nav">
+   
+      <li >
+      <p><a href="work">Work</a></p> 
+      </li>
       <li onClick={aboutSection.onClick} selected={aboutSection.selected}>
         About
       </li>
-      <li onClick={designSection.onClick} selected={designSection.selected}>
-        Design
-      </li>
-      <li onClick={workSection.onClick} selected={workSection.selected}>
-        Code
-      </li>
+    
       <li onClick={contactSection.onClick} selected={contactSection.selected}>
         Contact
-      </li>
-
-      <li onClick={resumeSection.onClick} selected={resumeSection.selected}>
-        Resume
       </li>
   
     </ul>
@@ -45,8 +39,11 @@ const StaticMenu = () => {
 function App() {
   return (
     <div className="App">
+     
       <ScrollingProvider>
+
         <StaticMenu />
+
         <Section id="Howdy">
           <Howdy />
         </Section>
@@ -55,10 +52,10 @@ function App() {
         </Section>
         <Section id="design">
           {" "}
-          <Design />{" "}
+          <Design />
         </Section>
         <Section id="work">
-          <Work />
+       <div > <Work /></div>  
         </Section>
         <Section id="contact">
           {" "}

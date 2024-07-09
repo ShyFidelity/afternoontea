@@ -67,7 +67,7 @@ export default function Work() {
        title="Boltstack"
        info="Discover Boltstack.com, where I led marketing efforts and front-end development. I created everything on this site from graphics to functionality and CSS media queries for a mobile-friendly design. Built on internal low-code software."
     
-       link= "https://www.boltstack.com/"
+       link= "https://boltstack-dev.softwarebbd.com/"
        buttonText="Go to site"
        />
        
@@ -105,12 +105,7 @@ export default function Work() {
        info="Review the Figma mockup presenting RemiRx, an app designed for managing medication using a Bluetooth pillbox. Explore its user-friendly interface and innovative features tailored to streamline healthcare management."
        link="https://www.figma.com/board/HG0IgJzCDkCGT8pyc2MGIZ/Untitled?node-id=0-1&t=j7UsmEy5qFqBadO9-1"
        buttonText="Go to Figma"/>
-       
-       <Card imgSrc={Unicorn}
-       title="Wildling Wine"
-       info="Personal project featuring a wine for the wild at heart in Figma."
-       link="https://www.figma.com/design/8hRULjo8LQtr52zv2Sfxxb/Jillian-Wine-Ecom-V1?node-id=30-3&t=RySMoqovo5t5LT86-1"
-       buttonText="Go to Figma"/>
+  
 
 <Card imgSrc={VideoJill}
 
@@ -120,6 +115,12 @@ export default function Work() {
        link="https://vimeo.com/916271339"
        buttonText="Watch on Vimeo"/>
        
+            
+       <Card imgSrc={Unicorn}
+       title="Wildling Wine"
+       info="Figma Course side project"
+       link="https://www.figma.com/design/8hRULjo8LQtr52zv2Sfxxb/Jillian-Wine-Ecom-V1?node-id=30-3&t=RySMoqovo5t5LT86-1"
+       buttonText="Go to Figma"/>
 
        <Card imgSrc={Toto}
        title="Friends of Toto"

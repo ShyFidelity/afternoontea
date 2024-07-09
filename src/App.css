@@ -98,7 +98,6 @@
 }
 
 .Nav {
-  position: fixed;
   text-decoration: none;
   list-style: none;
   display: none !important;
@@ -108,22 +107,12 @@
   flex-direction: row;
   align-items: center;
   justify-content:space-evenly;
-  transform: rotate(90deg);
+  
   margin-right: 1rem;
   
 }
 
-li {
-  color: #170420;
-  background: rgba(255, 255, 255, 0.858); 
-  padding:2rem;
-  border-radius: 20px;
-  font-size: 1.8rem;
-  height: 200px;
-  font-family: 'Lily Script One', cursive;
-  margin: 2rem;
-  width: 100vw;
-}
+
 
 
 .workLi, .jillian {
