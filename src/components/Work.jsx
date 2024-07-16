@@ -11,6 +11,7 @@ import Edqualis from '../images/edqualisss.png'
 import EdqualisCS from '../images/ednewnew.png'
 import AnsweredNew from '../images/answerednew.png'
 import Unicorn from '../images/Unico Rn copy.png'
+import AItutor from '../images/Screen Shot 2024-07-15 at 7.51.34 PM.png'
 
 const boxStyle = {
   height: "600px",
@@ -62,6 +63,15 @@ const mediastyle = {
 export default function Work() {
   return (
     <div >
+          <Card imgSrc={AItutor}
+      imgAlt="a screenshot of a Boltstack website talking about AI"
+       title="AI Tutor"
+       info="Here are Figma screens and a live link of an AI tutor site, my latest project using chat gpt. I created all the designs, brand aesthetic, and the working front end build. The live link is available in the Figma file. Enjoy!"
+    
+       link= "https://www.figma.com/design/IFub1w2Bx04gq61DbCnyt5/AI-TUTOR?node-id=37-3088&t=aIfRkgyvpJaP4cUd-1"
+       buttonText="Go to Figma project"
+       />
+
       <Card imgSrc={Boltstack}
       imgAlt="a screenshot of a Boltstack website talking about AI"
        title="Boltstack"
@@ -85,7 +95,7 @@ export default function Work() {
        title="Edqualis Case Study"
        info="A deeper look at Edqualis, it's new style, and it's users needs. We take an in-depth look at the life of the user, their needs and frustrations pertaining to this software."
        link= "https://www.figma.com/design/LYvcCqLYk36RPN5SPsIYQW/Behance-Presentation-Template-UI%2FUX-Case-study-(Community)?node-id=1-2&t=xvOpbyMZrpxANsVm-1"
-       buttonText="View Figma Project"
+       buttonText="View Figma project"
        />
        
        {<Card imgSrc={WonderInk}
@@ -101,10 +111,10 @@ export default function Work() {
        buttonText="Go to Adobe XD Case Study"/> */}
 
 <Card imgSrc={Pill}
-       title="RemiRX Figma"
+       title="RemiRX Figjam"
        info="Review the Figma mockup presenting RemiRx, an app designed for managing medication using a Bluetooth pillbox. Explore its user-friendly interface and innovative features tailored to streamline healthcare management."
        link="https://www.figma.com/board/HG0IgJzCDkCGT8pyc2MGIZ/Untitled?node-id=0-1&t=j7UsmEy5qFqBadO9-1"
-       buttonText="Go to Figma"/>
+       buttonText="Go to Figjam project"/>
   
 
 <Card imgSrc={VideoJill}
@@ -115,7 +125,7 @@ export default function Work() {
        link="https://vimeo.com/916271339"
        buttonText="Watch on Vimeo"/>
        
-            
+       <div id="design" className="oneHundred"> <p className="totoSays">Projects</p></div>           
        <Card imgSrc={Unicorn}
        title="Wildling Wine"
        info="Figma Course side project"

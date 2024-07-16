@@ -5,7 +5,7 @@
     display: flex;
    flex-direction: row;
  
-    background-color: rgb(252, 252, 252);
+    background-color: rgba(252, 252, 252, 0.543);
     height: fit-content;
     border: #000000 2px solid;
     padding: 2rem;
@@ -35,17 +35,19 @@
     width: 50%;
     background-color: rgba(255, 255, 255, 0.224);
     border-left:#999 solid 1px;
-    padding-left:2rem;
-    padding-right: 1rem;
+    padding:1.2rem; 
+    border-radius: 10px;
     display: flex;
     align-items: start;
     flex-direction: column;
+    margin-left:auto;
     justify-content: space-between;
 }
 
 .card-img {
     width: auto;
-    height: 19rem;
+    max-width: 350px;
+    max-height: 300px;
     border-radius: 1rem;
     margin-top: 20px;
 }
@@ -89,7 +91,59 @@
     ##Screen = B/w 768px to 1024px
   */
   
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 768px) and (max-width: 1200px) {
+
+    .card-container {
+      width: auto;
+      
+     flex-direction: column !important;
+     align-items: center;
+   
+      
+      height: fit-content;
+      border: #000000 2px solid;
+      padding: 1rem;
+      margin: 1rem;
+      margin-bottom: 2rem;
+  }
+  .card-img {
+      width: 100%;
+      height: auto;
+      border-radius: 1rem;
+      margin-top: 10px;
+  }
+  .card-desc, .card-inside  {
+      width: auto;
+      margin-top: 0.5rem;
+  }
+  .oneHundred {
+    flex-direction: column-reverse;
+}
+
+.contactData {
+
+  flex-direction: column;
+}
+
+
+
+.about {
+  border: none;
+  margin: 10px;
+}
+
+.hat {
+  width: 250px;
+}
+
+.contactData {
+display: flex;
+align-items: start;
+flex-direction: column !important;
+}
+
+
+    
     
     /* CSS */
     
@@ -121,7 +175,7 @@
        flex-direction: column !important;
        align-items: center;
      
-        background-color: rgb(251, 252, 253);
+        
         height: fit-content;
         border: #000000 2px solid;
         padding: 1rem;
@@ -185,7 +239,7 @@
        flex-direction: column !important;
        align-items: center;
      
-        background-color: rgb(251, 252, 253);
+        
         height: fit-content;
         border-bottom: #161616 1px solid;
         width: 100%;

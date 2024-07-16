@@ -25,7 +25,7 @@ const plxStyles = {
   color: "#fff",
   position: "relative",
   width: "100%",
-  height:500,
+  height:400,
   flexDirection: "column",
 };
 
@@ -49,8 +49,8 @@ const Howdy = () => {
     return (
         <div>
 
-        <div margin="30px" padding="40px" style={wrapperStyles}>
-        <object className='hat' width="600px" margin="30px"  data={HowdyHat}/>
+        <div margin="30px" padding="20px" style={wrapperStyles}>
+        <object className='hat' width="500px" margin="20px"  data={HowdyHat}/>
         </div>
         </div>
     )

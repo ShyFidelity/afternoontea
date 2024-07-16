@@ -23,13 +23,13 @@ const Contact = () => {
            href="tel:3039013230"
            onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
          >
-           (303) 901-3230
+           <span id='three'>303.</span> <span id="nine">901.3230</span>
        
          </a>
 
          <div className="github"><a href="https://github.com/ShyFidelity" target="_blank" className="github"><img width="50px"src={Github} alt="github logo" /></a></div>
          <div className="github"><a href="https://www.linkedin.com/in/jillianfitzmaurice100/" target="_blank" className="Link"><img width="50px"src={Link} alt="linkedin logo" /></a></div>
-         <a className='contacta' href="mailto:fitzmauricejillian@gmail.com"> fitzmauricejillian@gmail.com </a></div>
+         <a id="nine" href="mailto:fitzmauricejillian@gmail.com"> fitzmauricejillian@gmail.com </a></div>
                       {" "}
          
         </div>

@@ -30,7 +30,7 @@ const plxStyles = {
 
   position: "relative",
   width: "100%",
-  height:500,
+  height:400,
   width:320,
   flexDirection: "row",
 };

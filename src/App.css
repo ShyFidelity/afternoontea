@@ -56,11 +56,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(178deg, #764580, #eef8f0, #f2daea, #2a64a674);
-  background-size: 700% 800%;
+  background: linear-gradient(169deg, #9a60a6, #dff7e3, #f1b2dc, #2a64a674);
+  background-size: 600% 800%;
   -webkit-animation: AnimationName 3s ease infinite;
-  -moz-animation: AnimationName 10s ease infinite;
-  animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 8s ease infinite;
+  animation: AnimationName 8s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
@@ -137,6 +137,19 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+#three {
+  font-size: 4rem;
+  font-style: italic;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+
+#nine {
+  font-size: 2.2rem;
+  font-style: italic;
+  color:#12084b;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 a {
   text-decoration: none;
   color: #f5eff9;
