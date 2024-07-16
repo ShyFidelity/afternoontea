@@ -65,14 +65,16 @@
     border-radius: 0.5rem;
     display: flex;
     align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
     justify-content: center;
 
 }
 
 .card-btn:hover {
-  box-shadow: none;
+  box-shadow: 0px 0px 4px 2px #92779297;;
   transform: translateY(3px);
-  transition: ease-in-out 300ms;
+  background-color: #5e0145;
+  transition: ease-in-out 400ms;
 }
 
 .cactus {

@@ -85,7 +85,7 @@ export default function Work() {
       imgAlt="a screenshot of a Boltstack website talking about AI"
        title="Edqualis"
        info="Edqualis is an expansive education platform that engages admins, teachers, and students in one place. With the ability to generate content, forms, custom Dashboards, classes, lessons, rubrics, and custom branded UI.
-       Reskinned the entire application to give a more modern look as the current was very outdated. The new look created greater interest to investors looking to buy our product."
+       Reskinned the entire application to give a more modern look."
       link= "https://esp-dev.softwarebbd.com/?rr_dev=true&"
        buttonText="Log in available upon request"
        />
@@ -100,7 +100,7 @@ export default function Work() {
        
        {<Card imgSrc={WonderInk}
        title="WonderInk Application"
-       info="WonderInk is a learning management system for leaders, parents, and students. I revamped the front-end interface to align with brand recognition, taking the lead in design decisions. Additionally, I developed the parent portal as a vital link between parents, students, and youth leaders, fostering continuous engagement in learning throughout the week. Through curated videos and interactive games, it facilitates a dynamic educational experience for all involved. Log-in info available upon request"
+       info="WonderInk is a learning management system for leaders, parents, and students. I revamped the front-end interface to align with brand recognition, taking the lead in design decisions. Additionally, I developed the parent portal as a vital link between parents, students, and youth leaders, fostering continuous engagement in learning."
        link="https://app.wonderink.org/?"
        buttonText="Log in available upon request"/>
 
