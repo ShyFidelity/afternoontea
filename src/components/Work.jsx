@@ -12,6 +12,7 @@ import EdqualisCS from '../images/ednewnew.png'
 import AnsweredNew from '../images/answerednew.png'
 import Unicorn from '../images/Unico Rn copy.png'
 import AItutor from '../images/Screen Shot 2024-07-15 at 7.51.34 PM.png'
+import Legacy from '../images/legacyss.png'
 
 const boxStyle = {
   height: "600px",
@@ -63,8 +64,15 @@ const mediastyle = {
 export default function Work() {
   return (
     <div >
+             <Card imgSrc={Legacy}
+      imgAlt="lawyer app"
+       title="Legacy Architects"
+       info="Recent collaborative Figma project for estate planning lawyers. Password is shyfidelity."   
+       link= "https://www.figma.com/design/ZulEUpRGw8VCuAIIwSchlI/Lawyer-side-of-Legacy-Architects?node-id=2-282&t=m3vfyViyT4aNMUUV-1"
+       buttonText="Go to Figma project"
+       />
           <Card imgSrc={AItutor}
-      imgAlt="a screenshot of a Boltstack website talking about AI"
+      imgAlt="a cute pictuer of a computer talking about AI"
        title="AI Tutor"
        info="Here are Figma screens and a live link of an AI tutor site, my latest project using chat gpt. I created all the designs, brand aesthetic, and the working front end build. The live link is available in the Figma file. Enjoy!"
     
